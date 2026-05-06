@@ -27,7 +27,7 @@ jobs:
           input: "4 A01 3 A02 5 A03 2 A04 4"
           expected-output: |-
             ORDER A01 A02 A03 A04
-            WAIT 19
+            WAIT 21
           comparison-method: exact
           timeout: 2
           max-score: 10
