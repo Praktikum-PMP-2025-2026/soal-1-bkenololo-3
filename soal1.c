@@ -83,9 +83,9 @@ void display(Queue* q, int totalWaktu) {
         return;
     }
     Node* curr = q->front;
-    printf("ORDER ");
+    printf("ORDER");
     while (curr != NULL) {
-        printf("%s ", curr->id);
+        printf(" %s", curr->id);
         curr = curr->next;
     }
     
